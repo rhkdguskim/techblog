@@ -10,8 +10,8 @@ export default siteConfig({
 
   // basic site info (required)
   name: 'BigKwangs Tech Blog',
-  domain: 'nextjs-notion-starter-kit.transitivebullsh.it',
-  author: 'KWANG HYEON KIM',
+  domain: 'techblog-dusky.vercel.app',
+  author: 'KWANGHYEONKIM',
 
   // open graph metadata (optional)
   description: 'BigKwangs Tech Blog',
@@ -31,7 +31,7 @@ export default siteConfig({
   defaultPageCoverPosition: 0.3,
 
   // whether or not to enable support for LQIP preview images (optional)
-  isPreviewImageSupportEnabled: true,
+  isPreviewImageSupportEnabled: false,
 
   // whether or not redis is enabled for caching generated preview images (optional)
   // NOTE: if you enable redis, you need to set the `REDIS_HOST` and `REDIS_PASSWORD`
