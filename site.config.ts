@@ -11,7 +11,7 @@ export default siteConfig({
   // basic site info (required)
   name: 'BigKwangs Tech Blog',
   domain: 'nextjs-notion-starter-kit.transitivebullsh.it',
-  author: 'KwangHyeon KIM',
+  author: 'KWANG HYEON KIM',
 
   // open graph metadata (optional)
   description: 'BigKwangs Tech Blog',
@@ -28,7 +28,7 @@ export default siteConfig({
   // page-specific values will override these site-wide defaults
   defaultPageIcon: null,
   defaultPageCover: null,
-  defaultPageCoverPosition: 0.5,
+  defaultPageCoverPosition: 0.3,
 
   // whether or not to enable support for LQIP preview images (optional)
   isPreviewImageSupportEnabled: true,
@@ -50,32 +50,32 @@ export default siteConfig({
 
   // whether to use the default notion navigation style or a custom one with links to
   // important pages
-  // navigationStyle: 'default'
-  navigationStyle: 'custom',
-  navigationLinks: [
-    {
-      title: '너비우선탐색',
-      pageId: 'ed6d7fad54564826a275222eb4ba44c1'
-    },
-    {
-      title: '위상정렬',
-      pageId: '05ac056325124112bbd3292442f228aa'
-    },
-    {
-      title : '다이나믹프로그래밍',
-      pageId: '1248421b60994616a1fe09aacc4ac8b7'
-    },
-    {
-      title : '우선순위큐',
-      pageId: '71fb8c352189417e816b7cf9760f06d4'
-    },
-    {
-      title : '완전탐색',
-      pageId: 'ede6c7547d0241f1831fd4e153048221'
-    },
-    {
-      title : '구현',
-      pageId: 'b0a37c4492ea4159b8c18bae0353b8d4'
-    },
-  ]
+  navigationStyle: 'default',
+  // navigationStyle: 'custom',
+  // navigationLinks: [
+  //   {
+  //     title: '너비우선탐색',
+  //     pageId: 'ed6d7fad54564826a275222eb4ba44c1'
+  //   },
+  //   {
+  //     title: '위상정렬',
+  //     pageId: '05ac056325124112bbd3292442f228aa'
+  //   },
+  //   {
+  //     title : '다이나믹프로그래밍',
+  //     pageId: '1248421b60994616a1fe09aacc4ac8b7'
+  //   },
+  //   {
+  //     title : '우선순위큐',
+  //     pageId: '71fb8c352189417e816b7cf9760f06d4'
+  //   },
+  //   {
+  //     title : '완전탐색',
+  //     pageId: 'ede6c7547d0241f1831fd4e153048221'
+  //   },
+  //   {
+  //     title : '구현',
+  //     pageId: 'b0a37c4492ea4159b8c18bae0353b8d4'
+  //   },
+  // ]
 })
